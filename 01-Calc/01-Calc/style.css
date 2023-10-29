@@ -22,3 +22,20 @@ html { box-sizing: border-box; }
 }
 
 /* ---------------------------------------------------- */
+
+
+.kontejner{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.box{ 
+	flex: 0 0 calc(( 100% - 100px) / 6);
+}
+
+
+/*.prvni{
+	/*width:calc(50% + 100px);*/
+	/*padding: calc(1em + 10px)*/
+
