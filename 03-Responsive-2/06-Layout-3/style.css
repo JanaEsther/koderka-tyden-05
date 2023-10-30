@@ -84,14 +84,23 @@ aside > :last-child,
 
 @media screen and (min-width: 1000px){
 
-	
+	.kontejner{
+    display: flex;
+    flex-direction: row;
+  }
 
   .menu {
-    flex-basis: 25%;
+    flex: 1 1 25%;
   }
- 
+  
+  .obsah{
+    display:flex;
+    flex-direction: column;
+  }
+
+
   .clanek {
-    flex-basis: 75%;
+    flex: 1 1 75%;
   }
 
   .reklama {
